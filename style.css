@@ -1,0 +1,13 @@
+.navbar-brand img {
+  width: 325px;
+}
+
+.nav-item right {
+  float: right !important;
+  margin: 100px;
+}
+
+nav {
+  padding-top: 25px !important;
+  padding-left: 100px !important;
+}
