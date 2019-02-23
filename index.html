@@ -1,9 +1,779 @@
 <!DOCTYPE html>
-<head>
-  <title>Atlantic Media</title>
-</head>
+<html class="no-js" lang="en-US">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" meda="screen" />
+    <link rel="javascript" type="text/javascript" href="script.js" />
+    <meta charset="UTF-8" />
+    <title>
+      Atlantic Media
+    </title>
+    <meta
+      name="description"
+      content='"To inform, elevate and challenge the national discourse."  — Our Mission'
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-<body>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://atlanticmedia.com/wp-content/themes/am/img/favicon.ico"
+    />
+    <link rel="pingback" href="https://atlanticmedia.com/xmlrpc.php" />
+    <link rel="dns-prefetch" href="//atlanticmedia.com" />
+    <link rel="dns-prefetch" href="//s.w.org" />
 
+    <link rel="https://api.w.org/" href="https://atlanticmedia.com/wp-json/" />
+    <link rel="canonical" href="https://atlanticmedia.com/" />
+    <link rel="shortlink" href="https://atlanticmedia.com/" />
+  </head>
+  <body
+    class="ams-base home page-template-default page page-id-25"
+    data-template="base.twig"
+  >
+    <!-- inject:svg --><?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+    ><svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="arrow-right" viewBox="0 0 9 15">
+        <title>Shape 3</title>
+        <path
+          d="M.8 1L7 7.2.8 13.5"
+          stroke="#FFF"
+          stroke-width="2"
+          fill="none"
+        />
+      </symbol>
+      <symbol id="arrow" viewBox="0 0 12 12">
+        <path d="M4.5 0v1.5h4.95L0 10.95 1.05 12l9.45-9.45V7.5H12V0z" />
+      </symbol>
+      <symbol id="email" viewBox="0 0 26 22">
+        <path
+          d="M26 6.587c-.435.479-.929.9-1.45 1.262-2.424 1.64-4.861 3.294-7.226 5.006-1.22.9-2.728 2.002-4.31 2.002h-.028c-1.581 0-3.09-1.103-4.309-2.002-2.365-1.727-4.802-3.366-7.21-5.006A8.114 8.114 0 0 1 0 6.587v11.52a2.328 2.328 0 0 0 2.321 2.322H23.68A2.328 2.328 0 0 0 26 18.107V6.587zm0-4.266A2.338 2.338 0 0 0 23.679 0H2.32C.77 0 0 1.219 0 2.64 0 3.96 1.465 5.6 2.496 6.298 4.744 7.864 7.022 9.43 9.27 11.012c.943.653 2.54 1.988 3.714 1.988h.03c1.175 0 2.77-1.335 3.714-1.988 2.249-1.581 4.527-3.148 6.79-4.715C24.796 5.412 26 3.947 26 2.32z"
+        />
+      </symbol>
+      <symbol id="facebook" viewBox="0 0 14 26">
+        <path
+          d="M9.48 4.79c.66 0 1.556.119 2.284.271.17.034.356 0 .508-.101a.618.618 0 0 0 .271-.44L13 1.219a.66.66 0 0 0-.474-.711A13.895 13.895 0 0 0 8.717 0C4.672 0 2.708 1.93 2.708 5.924v1.744H.643A.643.643 0 0 0 0 8.311v3.386c0 .372.288.66.643.66h2.065v13c0 .355.288.643.644.643h4.231a.64.64 0 0 0 .627-.643v-13h3.419c.338 0 .61-.271.643-.61l.237-3.385a.649.649 0 0 0-.17-.49.605.605 0 0 0-.456-.204H8.21v-1.49c0-1.117.118-1.388 1.27-1.388z"
+        />
+      </symbol>
+      <symbol id="ic_arrow_forward_black_24px" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+      </symbol>
+      <symbol id="instagram-dark" viewBox="0 0 20 20">
+        <path
+          class="st0"
+          d="M10 0C7.3 0 6.9 0 5.9.1 4.8.1 4.1.3 3.5.6c-.7.2-1.3.5-1.8 1.1-.6.5-.9 1.1-1.2 1.8-.2.6-.4 1.3-.4 2.4C0 6.9 0 7.3 0 10s0 3.1.1 4.1c0 1.1.2 1.8.5 2.4.3.7.6 1.2 1.2 1.8.6.6 1.1.9 1.8 1.2.6.2 1.4.4 2.4.5h4c2.7 0 3.1 0 4.1-.1 1.1 0 1.8-.2 2.4-.5.7-.3 1.2-.6 1.8-1.2.6-.6.9-1.1 1.2-1.8.2-.6.4-1.4.5-2.4 0-1.1.1-1.4.1-4.1s0-3.1-.1-4.1c0-1.1-.2-1.8-.5-2.4-.3-.7-.6-1.2-1.2-1.8S17.2.7 16.5.4c-.6-.2-1.4-.4-2.4-.5-1 .1-1.4.1-4.1.1z"
+        />
+        <path
+          class="st1"
+          d="M10 13.3c-1.8 0-3.3-1.5-3.3-3.3S8.2 6.7 10 6.7s3.3 1.5 3.3 3.3-1.5 3.3-3.3 3.3zm0-8.4c-2.8 0-5.1 2.3-5.1 5.1s2.3 5.1 5.1 5.1 5.1-2.3 5.1-5.1-2.3-5.1-5.1-5.1zm6.5-.2c0 .7-.5 1.2-1.2 1.2s-1.2-.5-1.2-1.2.5-1.2 1.2-1.2 1.2.5 1.2 1.2"
+        />
+      </symbol>
+      <symbol id="instagram-light" viewBox="0 0 20 20">
+        <path
+          class="st0"
+          d="M10 0C7.3 0 6.9 0 5.9.1 4.8.1 4.1.3 3.5.6c-.7.2-1.3.5-1.8 1.1-.6.5-.9 1.1-1.2 1.8-.2.6-.4 1.3-.4 2.4C0 6.9 0 7.3 0 10s0 3.1.1 4.1c0 1.1.2 1.8.5 2.4.3.7.6 1.2 1.2 1.8.6.6 1.1.9 1.8 1.2.6.2 1.4.4 2.4.5h4c2.7 0 3.1 0 4.1-.1 1.1 0 1.8-.2 2.4-.5.7-.3 1.2-.6 1.8-1.2.6-.6.9-1.1 1.2-1.8.2-.6.4-1.4.5-2.4 0-1.1.1-1.4.1-4.1s0-3.1-.1-4.1c0-1.1-.2-1.8-.5-2.4-.3-.7-.6-1.2-1.2-1.8S17.2.7 16.5.4c-.6-.2-1.4-.4-2.4-.5-1 .1-1.4.1-4.1.1z"
+        />
+        <path
+          class="st1"
+          d="M10 13.3c-1.8 0-3.3-1.5-3.3-3.3S8.2 6.7 10 6.7s3.3 1.5 3.3 3.3-1.5 3.3-3.3 3.3zm0-8.4c-2.8 0-5.1 2.3-5.1 5.1s2.3 5.1 5.1 5.1 5.1-2.3 5.1-5.1-2.3-5.1-5.1-5.1zm6.5-.2c0 .7-.5 1.2-1.2 1.2s-1.2-.5-1.2-1.2.5-1.2 1.2-1.2 1.2.5 1.2 1.2"
+        />
+      </symbol>
+      <symbol id="linkedin" viewBox="0 0 26 25">
+        <path
+          d="M9.003 13.857V8.053h5.566v2.428h-.058c.235-.354.472-.67.71-.948.238-.275.553-.57.948-.887.394-.315.889-.553 1.48-.71a7.509 7.509 0 0 1 1.953-.237c1.895 0 3.437.632 4.62 1.895C25.405 10.857 26 12.732 26 15.218v9.594h-5.569V15.87c0-1.185-.235-2.112-.71-2.782-.435-.672-1.145-1.008-2.132-1.008-.71 0-1.302.197-1.777.594a3.76 3.76 0 0 0-1.066 1.42c-.119.356-.177.809-.177 1.362v9.356H9.003V13.857zM.298 24.812h5.627V8.052H.298v16.76zM.89.83C1.443.275 2.193 0 3.141 0c.947 0 1.698.275 2.249.829.553.553.848 1.243.889 2.072 0 .831-.296 1.52-.89 2.074-.55.55-1.3.829-2.248.829h-.06c-.908 0-1.658-.278-2.25-.829C.278 4.422 0 3.732 0 2.901 0 2.07.298 1.382.89.829z"
+        />
+      </symbol>
+      <symbol id="right-arrow" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+      </symbol>
+      <symbol id="rss" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <circle cx="6.18" cy="17.82" r="2.18" />
+        <path
+          d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"
+        />
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 26 22">
+        <path
+          d="M26 2.857a.447.447 0 0 0-.444-.444c-.138 0-1.095.402-1.345.471.333-.388 1.096-1.567 1.096-2.066a.447.447 0 0 0-.444-.444.46.46 0 0 0-.222.07c-.943.513-1.844.915-2.898 1.137A5.686 5.686 0 0 0 17.833 0c-3.079 0-5.603 2.51-5.603 5.602 0 .222.014.458.056.68a14.2 14.2 0 0 1-8.223-3.578c-.555-.5-1.026-1.04-1.525-1.595a.435.435 0 0 0-.375-.166c-.152 0-.277.11-.346.222-.5.735-.763 1.927-.763 2.815 0 1.29.444 2.551 1.276 3.55-.264-.084-.666-.347-.902-.347-.29 0-.54.208-.54.5 0 1.94 1.067 3.743 2.703 4.755-.124-.013-.235-.055-.36-.055a.441.441 0 0 0-.43.43c0 .055.014.097.028.152a5.587 5.587 0 0 0 4.049 3.73 9.867 9.867 0 0 1-5.2 1.47c-.416 0-.832-.069-1.234-.069A.447.447 0 0 0 0 18.54c0 .152.083.277.208.374.36.264.804.485 1.206.693A15.062 15.062 0 0 0 8.348 21.3c6.046 0 11.218-3.245 13.714-8.764.901-1.982 1.428-4.16 1.387-6.337v-.457c.942-.707 1.858-1.623 2.482-2.635a.479.479 0 0 0 .069-.25z"
+        />
+      </symbol>
+      <symbol id="x" viewBox="0 0 20 20">
+        <title>Shape</title>
+        <path
+          d="M20 2l-2-2-8 8-8-8-2 2 8 8-8 8 2 2 8-8 8 8 2-2-8-8z"
+          fill-rule="evenodd"
+        />
+      </symbol></svg
+    ><!-- endinject -->
+
+    <a href="#content" class="global-header__skip">Skip to Content</a>
+    <header class="global-header">
+      <div class="wrapper">
+        <a
+          aria-label="homepage"
+          href="https://atlanticmedia.com"
+          class="global-header__title"
+          alt="Atlantic Media"
+        >
+          <img
+            class="global-header__title-img"
+            src="https://atlanticmedia.com/wp-content/uploads/2016/06/atlantic-media-logo.png"
+            alt="Atlantic Media Logo"
+          />
+        </a>
+
+        <button
+          id="nav-trigger"
+          class="global-nav__trigger hamburger hamburger--slider"
+          type="button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+          <span class="global-nav__trigger-text">Menu</span>
+        </button>
+
+        <ul id="global-nav" class="global-nav global-nav--page">
+          <li
+            class="global-nav__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-55"
+          >
+            <a
+              href="https://atlanticmedia.com/about/"
+              class="global-nav__item-link
+        "
+            >
+              About
+            </a>
+          </li>
+          <li
+            class="global-nav__item  menu-item menu-item-type-custom menu-item-object-custom menu-item-1303 menu-item-has-children"
+          >
+            <a
+              href="#"
+              class="global-nav__item-link
+                  global-nav__item-link--has-children
+        "
+            >
+              Brands
+            </a>
+            <ul class="global-nav__submenu global-nav__submenu--page">
+              <div class="wrapper global-nav__submenu-wrapper">
+                <li class="global-nav__submenu-item">
+                  <a
+                    class="global-nav__submenu-link "
+                    href="https://atlanticmedia.com/brands/the-atlantic/"
+                  >
+                    <img
+                      class="global-nav__submenu-image"
+                      src="https://atlanticmedia.com/wp-content/uploads/2016/10/AtlanticLogoNEWblack-120x40.png"
+                      alt="The Atlantic logo"
+                    />
+                    <span class="global-nav__submenu-text">The Atlantic</span>
+                  </a>
+                </li>
+                <li class="global-nav__submenu-item">
+                  <a
+                    class="global-nav__submenu-link "
+                    href="https://atlanticmedia.com/brands/government-executive/"
+                  >
+                    <img
+                      class="global-nav__submenu-image"
+                      src="https://atlanticmedia.com/wp-content/uploads/2016/06/nav-logo-government-executive.png"
+                      alt="Government Executive logo"
+                    />
+                    <span class="global-nav__submenu-text"
+                      >Government Executive</span
+                    >
+                  </a>
+                </li>
+                <li class="global-nav__submenu-item">
+                  <a
+                    class="global-nav__submenu-link "
+                    href="https://atlanticmedia.com/brands/national-journal/"
+                  >
+                    <img
+                      class="global-nav__submenu-image"
+                      src="https://atlanticmedia.com/wp-content/uploads/2016/10/2016-10-19-120x60.png"
+                      alt="National Journal logo"
+                    />
+                    <span class="global-nav__submenu-text"
+                      >National Journal</span
+                    >
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </li>
+          <li
+            class="global-nav__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-99781"
+          >
+            <a
+              href="https://atlanticmedia.com/leadership/"
+              class="global-nav__item-link
+        "
+            >
+              Leadership
+            </a>
+          </li>
+          <li
+            class="global-nav__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-49"
+          >
+            <a
+              href="https://atlanticmedia.com/culture/"
+              class="global-nav__item-link
+        "
+            >
+              Culture
+            </a>
+          </li>
+          <li
+            class="global-nav__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-50"
+          >
+            <a
+              href="https://atlanticmedia.com/press/"
+              class="global-nav__item-link
+        "
+            >
+              Press
+            </a>
+          </li>
+          <li
+            class="global-nav__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-100243"
+          >
+            <a
+              href="https://atlanticmedia.com/careers/"
+              class="global-nav__item-link
+        "
+            >
+              Careers
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main id="content">
+      <div class="wrapper ">
+        <section class="hero-slide am-slider">
+          <a href="" class="hero-slide__slide-wrap">
+            <picture class="hero-slide__slide-picture">
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-corporate.jpg"
+                media="(min-width: 1500px)"
+              />
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-corporate-1248x358.jpg"
+                media="(min-width: 320px)"
+              />
+              <img
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-atlantic-media-mobile.jpg"
+                alt=""
+              />
+            </picture>
+          </a>
+          <a href="" class="hero-slide__slide-wrap">
+            <picture class="hero-slide__slide-picture">
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/nj_banner-atlantic_mediaB.jpg"
+                media="(min-width: 1500px)"
+              />
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/nj_banner-atlantic_mediaB-1248x357.jpg"
+                media="(min-width: 320px)"
+              />
+              <img
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-national-journal-mobile.jpg"
+                alt=""
+              />
+            </picture>
+          </a>
+          <a href="" class="hero-slide__slide-wrap">
+            <picture class="hero-slide__slide-picture">
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-defense-one.jpg"
+                media="(min-width: 1500px)"
+              />
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-defense-one-1248x358.jpg"
+                media="(min-width: 320px)"
+              />
+              <img
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-defense-one-mobile.gif"
+                alt=""
+              />
+            </picture>
+          </a>
+          <a href="" class="hero-slide__slide-wrap">
+            <picture class="hero-slide__slide-picture">
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-the-atlantic.jpg"
+                media="(min-width: 1500px)"
+              />
+              <source
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-the-atlantic-1248x358.jpg"
+                media="(min-width: 320px)"
+              />
+              <img
+                class="hero-slide__slide-picture-source"
+                srcset="https://atlanticmedia.com/wp-content/uploads/2012/09/slide-the-atlantic-mobile.jpg"
+                alt=""
+              />
+            </picture>
+          </a>
+        </section>
+
+        <div class="row">
+          <section class="news-quotes">
+            <h2 class="news-quotes__title">In the News</h2>
+            <q class="news-quotes__quote"
+              >[Atlantic Media]...has transformed its traditional business to
+              become a digital powerhouse.</q
+            >
+            <span class="news-quotes__source">- <em>Digiday</em></span>
+            <a class="news-quotes__more" href="/press">
+              <svg class="icon panel-dark__link-icon">
+                <use xlink:href="#arrow-right" />
+              </svg>
+
+              More
+            </a>
+          </section>
+
+          <section
+            class="panel live-panel"
+            style="background-image: url(https://atlanticmedia.com/wp-content/uploads/2012/09/idea-i-purple-e1498757023920.png)"
+          >
+            <a
+              class="panel__link"
+              href="http://atlanticmedia.us8.list-manage.com/subscribe?u=96e0595e8ab16cb2e263ed26e&id=47a60bdfc2"
+            >
+              <h2 class="panel__kicker">The Idea</h2>
+              <div class="panel__text">
+                <h3 class="panel__title">Sign up for The Idea</h3>
+                <h4 class="panel__subtitle">
+                  Atlantic Media's weekly newsletter on media trends.
+                </h4>
+              </div>
+            </a>
+          </section>
+
+          <section class="panel-dark careers-teaser">
+            <h2 class="panel-dark__kicker">Jobs</h2>
+            <p class="panel-dark__text">
+              Atlantic Media attracts the most extraordinary individuals, who
+              are looking to boldly disrupt and relentlessly innovate in a
+              fast-paced and rewarding digital media environment. We seek humble
+              and dynamic talent looking to join a collaborative environment
+              that provides a wealth of opportunities for career development and
+              growth.
+            </p>
+            <a
+              class="panel-dark__link"
+              href="http://www.atlanticmedia.com/careers"
+            >
+              More
+            </a>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <div class="row">
+      <div class="wrapper">
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.theatlantic.com/assets/media/img/mt/2019/02/RTX6NF5A/lead_960.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            The Atlantic
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.theatlantic.com/newsletters/archive/2019/02/oscars-nc09-jussie-smollett-the-atlantic-daily/583438/?utm_source=feed"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                What We’re FollowingA North Carolina House election tainted by
+                allegations&hellip;
+              </h3>
+              <h4 class="panel__subtitle">13 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section class="panel feed-panel" style="background: #005B94;">
+          <h2 class="panel__kicker">
+            Quartz
+          </h2>
+          <a
+            class="panel__link"
+            href="https://qz.com/1557749/amy-klobuchars-parental-leave-policy-for-staff-is-inconsistent-with-her-public-persona/"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                There are a lot of noteworthy allegations (paywall) in
+                the&hellip;
+              </h3>
+              <h4 class="panel__subtitle">15 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(//www.nationaljournal.com/media/media/2019/02/21/07a5c970bec44c05813cef633ce34b23_epa_pesticides_restrictions_5142x3135.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            National Journal
+          </h2>
+          <a
+            class="panel__link"
+            href="http://njour.nl/s/676818?unlock=57WH81S1ORPZGHQV"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                Congress is set to bring up a regulatory measure that&hellip;
+              </h3>
+              <h4 class="panel__subtitle">2 days ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.citylab.com/media/img/citylab/2019/02/TREN_MAYA-1/lead_large.png); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            CityLab
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.citylab.com/environment/2019/02/mexico-travel-mayan-train-yucatan-tourism-economic-development/583405/?utm_source=feed"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                On December 16, two weeks after his inauguration, Mexican
+                President&hellip;
+              </h3>
+              <h4 class="panel__subtitle">19 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.govexec.com/media/img/upload/2019/02/22/022219shutdown/large.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            Government Executive
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.govexec.com/pay-benefits/2019/02/judge-hear-additional-arguments-shutdown-lawsuits-may/155085/"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                The Justice Department is expected to file a motion to&hellip;
+              </h3>
+              <h4 class="panel__subtitle">15 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section class="panel-dark panel-dark--orange insights">
+          <h2 class="panel-dark__kicker panel-dark__kicker--light">
+            Atlantic Media Proprietary Insight
+          </h2>
+          <p
+            class="panel-dark__text panel-dark__text--large panel-dark__text--light insights__text"
+          >
+            Opinion leaders drive the conversation online. They are four times
+            as likely to share online articles via e-mail than the general
+            population.
+          </p>
+          <span class="insights__source"></span>
+          <a class="panel-dark__link panel-dark__link--light" href="">
+            <svg class="icon panel-dark__link-icon">
+              <use xlink:href="#arrow-right" />
+            </svg>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.routefifty.com/media/img/upload/2019/02/22/newyork/large.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            Route Fifty
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.routefifty.com/finance/2019/02/democratic-governors-state-local-tax-deductions/155091/"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                A coalition of governors from high-tax states hit hardest
+                by&hellip;
+              </h3>
+              <h4 class="panel__subtitle">10 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.defenseone.com/media/img/upload/2019/02/22/AP_19045600032861/large.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            Defense One
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.defenseone.com/threats/2019/02/pentagon-wins-reprieve-trump-approval-residual-forces-syria/155090/"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                General Dunford is “confident” U.S. allies will now agree
+                to&hellip;
+              </h3>
+              <h4 class="panel__subtitle">14 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.nextgov.com/media/img/upload/2019/02/22/NGrecruits2019022/large.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            Nextgov
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.nextgov.com/ideas/2019/02/how-government-plans-modernize-its-workforce/155076/"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                Cloud-based tools can help woo the next generation of
+                public&hellip;
+              </h3>
+              <h4 class="panel__subtitle">16 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.routefifty.com/media/img/upload/2019/02/22/trade/large.jpeg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            Route Fifty
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.routefifty.com/management/2019/02/republican-governors-trade-war-over/155089/"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                WASHINGTON &mdash; Several Republican governors said Friday they
+                want the&hellip;
+              </h3>
+              <h4 class="panel__subtitle">14 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section class="panel-dark panel-dark--blue twitter-feed">
+          <h2 class="panel-dark__kicker panel-dark__kicker--light">
+            <svg class="icon twitter-feed__icon">
+              <use xlink:href="#twitter" />
+            </svg>
+
+            Twitter
+          </h2>
+          <p
+            class="panel-dark__text panel-dark__text--light panel-dark__text--large"
+          >
+            This week on @HotlineJosh's Against the Grain, Democratic pollster
+            @MarkMellman joins the pod to discuss Rep. Ilhan…
+            https://t.co/L6QUwt9RW8
+          </p>
+          <a
+            class="panel-dark__link panel-dark__link--light"
+            href="https://twitter.com/nationaljournal/status/1099066811704901633"
+          >
+            <svg class="icon panel-dark__link-icon">
+              <use xlink:href="#arrow-right" />
+            </svg>
+
+            15 hours ago from @nationaljournal
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.defenseone.com/media/img/upload/2019/02/22/Commercial_Hero_Responsive-Image-TemplateSource_image_crops_to_1920x1125.jpg.pc-adaptive.full.medium/large.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            Defense One
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.defenseone.com/technology/2019/02/pentagon-wants-satellites-can-dodge-incoming-fire/155088/"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                As China and Russia move to weaponize space, the U.S.&hellip;
+              </h3>
+              <h4 class="panel__subtitle">15 hours ago</h4>
+            </div>
+          </a>
+        </section>
+
+        <section
+          class="panel feed-panel"
+          style="background: url(https://cdn.theatlantic.com/assets/media/img/mt/2019/02/RTS183PN/lead_960.jpg); background-size: cover;"
+        >
+          <h2 class="panel__kicker">
+            The Atlantic
+          </h2>
+          <a
+            class="panel__link"
+            href="https://www.theatlantic.com/politics/archive/2019/02/mueller-reports-arrival-still-unknown-politics-daily/583468/?utm_source=feed"
+          >
+            <div class="panel__text">
+              <h3 class="panel__title">
+                What We’re Following TodayIt’s Friday, February 22. The past
+                few&hellip;
+              </h3>
+              <h4 class="panel__subtitle">15 hours ago</h4>
+            </div>
+          </a>
+        </section>
+      </div>
+    </div>
+
+    <footer class="global-footer">
+      <div class="wrapper">
+        <address class="global-footer__address">
+          <span class="global-footer__address-line global-footer__address-line">
+            <strong>Headquarters</strong>
+          </span>
+          <span class="global-footer__address-line">
+            The Watergate
+          </span>
+          <span class="global-footer__address-line">
+            600 New Hampshire Avenue, NW
+          </span>
+          <span class="global-footer__address-line">
+            Washington, DC 20037
+          </span>
+          <span class="global-footer__address-line">
+            Phone: 202-266-7000
+          </span>
+          <span class="global-footer__address-line">
+            Fax: 202-266-6001
+          </span>
+        </address>
+        <address class="global-footer__address">
+          <span class="global-footer__address-line global-footer__address-line">
+            <strong>Quartz</strong>
+          </span>
+          <span class="global-footer__address-line">
+            675 Avenue of the Americas
+          </span>
+          <span class="global-footer__address-line">
+            Suite 410
+          </span>
+          <span class="global-footer__address-line">
+            New York, NY 10010
+          </span>
+        </address>
+        <address class="global-footer__address">
+          <span class="global-footer__address-line global-footer__address-line">
+            <strong>The Atlantic</strong>
+          </span>
+          <span class="global-footer__address-line">
+            60 Madison Avenue
+          </span>
+          <span class="global-footer__address-line">
+            8th Floor
+          </span>
+          <span class="global-footer__address-line">
+            New York, NY 10010
+          </span>
+        </address>
+
+        <p class="global-footer__copyright">
+          <span>&copy; 2019 Atlantic Media, all rights reserved</span><br />
+          <a
+            class="global-footer__link"
+            href="https://atlanticmedia.com/privacy-policy/"
+          >
+            Privacy Policy
+          </a>
+          <a
+            class="global-footer__link"
+            href="https://atlanticmedia.com/terms-and-conditions/"
+          >
+            Terms and Conditions
+          </a>
+        </p>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://atlanticmedia.com/wp-content/themes/am/js/scripts.js?ver=4.9.5"
+    ></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-20189-43"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-20189-43");
+    </script>
+
+    <script src="https://use.typekit.net/mjk5jfy.js"></script>
+    <script>
+      try {
+        Typekit.load({ async: true });
+      } catch (e) {}
+    </script>
+
+    <script type="text/javascript">
+      window.NREUM || (NREUM = {});
+      NREUM.info = {
+        beacon: "bam.nr-data.net",
+        licenseKey: "e13c6c549a",
+        applicationID: "27953727",
+        transactionName: "MlAAbUVSWEdWWhBYWgsaI1pDWllaGEkFVlBIXQ1UUg==",
+        queueTime: 0,
+        applicationTime: 443,
+        atts: "HhcDGw1IS0k=",
+        errorBeacon: "bam.nr-data.net",
+        agent: ""
+      };
+    </script>
+  </body>
 </html>
