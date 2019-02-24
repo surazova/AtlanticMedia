@@ -11,3 +11,13 @@ nav {
   padding-top: 25px !important;
   padding-left: 100px !important;
 }
+
+.carousel-inner,
+.carousel-item {
+  padding-top: 100px;
+  height: calc(100vh-50px);
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+}
