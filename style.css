@@ -29,7 +29,8 @@ nav .nav-item {
 @import "compass/css3";
 
 .flex-container {
-  padding: 0;
+  padding-left: 125px;
+  padding-right: 125px;
   margin: 0;
   list-style: none;
 
@@ -40,15 +41,15 @@ nav .nav-item {
   display: flex;
 
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .flex-item {
   background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+  padding: 1px;
+  width: 325px;
+  height: 300px;
+  margin-top: 20px;
 
   line-height: 150px;
   color: white;
@@ -59,10 +60,10 @@ nav .nav-item {
 
 .flex-item-md {
   background: blue;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+  padding: 1px;
+  width: 690px;
+  height: 300px;
+  margin-top: 20px;
 
   line-height: 150px;
   color: white;
@@ -73,10 +74,10 @@ nav .nav-item {
 
 .flex-item-lg {
   background: green;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+  padding: 1px;
+  width: 1060px;
+  height: 300px;
+  margin-top: 20px;
 
   line-height: 150px;
   color: white;
